@@ -1,0 +1,23 @@
+// .button {
+//     padding: 30px 10px;
+//     background-color: var(--orange);
+// }
+
+.button {
+  background-color: var(--orange);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: white;            
+    // box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }

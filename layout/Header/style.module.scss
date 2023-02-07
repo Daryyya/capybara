@@ -1,0 +1,16 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+    padding: 30px;
+    color: var(--black);
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid var(--black);
+}
